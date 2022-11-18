@@ -1,11 +1,12 @@
 package org.example.model;
 
+import org.example.domain.model.Driver;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-public class DriverTest {
+class DriverTest {
 
     @Test
     void testProperties(){

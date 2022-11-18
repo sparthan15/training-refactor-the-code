@@ -1,11 +1,12 @@
 package org.example.model;
 
+import org.example.domain.model.Customer;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertNotNull;
 import static org.junit.jupiter.api.Assertions.assertNull;
 
-public class CustomerTest {
+class CustomerTest {
 
     @Test
     void testProperties(){

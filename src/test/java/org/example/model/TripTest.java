@@ -1,10 +1,12 @@
 package org.example.model;
 
 import org.example.WhateverException;
+import org.example.domain.model.CityUtils;
+import org.example.domain.model.Trip;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class TripTest {
+class TripTest {
 
     @Test
     void givenTheTripWhenOriginAndDestinationAreTheSameThenThrowAnException(){
@@ -14,5 +16,10 @@ public class TripTest {
                     .destination(CityUtils.CHICAGO)
                     .build();
         });
+    }
+
+    @Test
+    void givenTheDriverIsTheCustomerThenThrowAnException(){
+
     }
 }
